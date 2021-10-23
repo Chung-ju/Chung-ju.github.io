@@ -1,9 +1,9 @@
 - type: dates
-  title: Dates
+  title: Publication
   url: /dates/
 #- type: categories
 #  title: Categories
 #  url: /categories/
 - type: tags
-  title: Tags
+  title: Code
   url: /tags/
