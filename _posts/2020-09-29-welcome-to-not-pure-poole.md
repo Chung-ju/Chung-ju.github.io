@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Research
-date: 2021-10-23 19:43 +0800
-toc:  true
+date: 2021-10-23 19:00 +0800
 ---
 + Federated Learning
 + Machine Learning
