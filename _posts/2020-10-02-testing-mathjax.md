@@ -2,15 +2,10 @@
 layout: post
 title: Bio
 tags: mathjax
-math: true
 ---
-Not Pure Poole supports [MathJax](https://www.mathjax.org/). You can enable it on a page by setting `math: true` in the front matter.
+I am an undergraduate student in 
 
-An inline math: \\\(E=mc^2\\\).
+[Northwest A&F University]: https://www.nwsuaf.edu.cn/
 
-A display math:
+, majored in information management and information system. 
 
-$$
-i\hbar \frac{\partial \Psi}{\partial t} = -\frac{\hbar^2}{2m}
-\frac{\partial^2 \Psi}{\partial x^2} + V \Psi
-$$
