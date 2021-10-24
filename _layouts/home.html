@@ -23,7 +23,7 @@ layout: default
       {%- endif -%}
     </div>
 
-    <p>{{ post.excerpt}}</p>
+    {{ post.excerpt }}
   </section>
   {% endfor %}
   {%- if jekyll.environment == "production" and site.disqus -%}
