@@ -1,6 +1,6 @@
-- type: dates
+- type: publication
   title: Publication
-  url: /dates/
+  url: /publication/
 #- type: categories
 #  title: Categories
 #  url: /categories/
