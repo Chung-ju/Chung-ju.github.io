@@ -1,6 +1,6 @@
 ---
 layout: archive-taxonomies
-permalink: /tags/
-title: Tags
-type: tags
+permalink: /code/
+title: Code
+type: code
 ---
