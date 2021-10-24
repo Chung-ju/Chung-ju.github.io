@@ -1,8 +1,14 @@
 ---
 layout: page
-title: About
+title: Contact
 ---
 
-**Not Pure Poole** is a simple, beautiful, and powerful Jekyll theme for blogs. It is built on [Poole](https://github.com/poole/poole) and [Pure](https://purecss.io/).
+Email
 
-For more information about Not Pure Poole, please browse the [README](https://github.com/vszhub/not-pure-poole) file.
+> + chongruhuang@outlook.com
+> + chongruhuang.pku@gmail.com
+> + huangchongru@nwafu.edu.cn
+
+Address
+
+> + No.3 Taicheng Road, Yangling, Shaanxi, China, 712100
