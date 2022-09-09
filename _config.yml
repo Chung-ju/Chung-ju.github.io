@@ -1,7 +1,7 @@
 # Setup
-title: Chongru Huang (黄 崇儒)
+title: Chung-ju Huang (黄 崇儒)
 description: Life is a path winding in the mountain, bumpy and zigzagging.
-url: https://cruise-c-r-huang.github.io/
+url: https://Chung-ju-Huang.github.io/
 avatar: /avatar.jpeg
 paginate: 5
 permalink: pretty
@@ -55,5 +55,5 @@ sass:
 # Specify the author for blog posts
 author:
   name: Chongru Huang
-  url: https://github.com/Cruise-C-R-Huang
+  url: https://github.com/Chung-ju-Huang
   email: chongruhuang@outlook.com
