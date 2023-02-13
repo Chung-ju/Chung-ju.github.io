@@ -117,9 +117,7 @@ education:
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Just a research novice.
     papers:
       - title: Vertical Federated Knowledge Transfer via Representation Distillation for Healthcare Collaboration Networks
         link: "#"
