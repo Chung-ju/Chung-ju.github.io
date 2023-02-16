@@ -119,12 +119,12 @@ education:
 publications:
     title: Publications
     intro: |
-      Just a research novice. E
+      Just a research novice.
     papers:
       - title: Vertical Federated Knowledge Transfer via Representation Distillation for Healthcare Collaboration Networks
         link: "https://arxiv.org/abs/2302.05675"
         authors: Chung-ju Huang, Leye Wang and Xiao Han*
-        conference: WWW 2023
+        conference: WWW 2023 (Full paper)
 
       # - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
       #   link: "#"
