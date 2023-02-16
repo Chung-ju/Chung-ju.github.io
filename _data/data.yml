@@ -119,7 +119,7 @@ education:
 publications:
     title: Publications
     intro: |
-      Just a research novice.
+      Just a research novice. E
     papers:
       - title: Vertical Federated Knowledge Transfer via Representation Distillation for Healthcare Collaboration Networks
         link: "https://arxiv.org/abs/2302.05675"
