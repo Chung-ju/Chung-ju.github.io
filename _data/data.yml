@@ -47,9 +47,12 @@ sidebar:
 biography:
     title: Biography
     summary: |
-      I am Chung-ju Huang (Chinese: 黃 崇儒), a first-year PhD student in School of Computer Science, Peking University, 
-      supervised by [Leye Wang](https://wangleye.github.io/). My recent research interests 
-      are federated system supervision, trustworthy AI-based software, and system software.
+      I am Chung-ju Huang (Chinese: 黃 崇儒), a first-year PhD student in 
+      [School of Computer Science](https://cs.pku.edu.cn/English/Home.htm), 
+      [Peking University](https://english.pku.edu.cn/), supervised by 
+      [Leye Wang](https://wangleye.github.io/). My recent research interests 
+      are federated system supervision, trustworthy AI-based software, and 
+      system software.
 
 education:
     title: Education
@@ -112,10 +115,6 @@ education:
 #         link: "#"
 #         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-#       - title: Delta
-#         link: "#"
-#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
 publications:
     title: Publications
     intro: |
@@ -130,11 +129,6 @@ publications:
       #   link: "#"
       #   authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
       #   conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      # - title: A syntax directed compiler for Algol 60
-      #   link: "#"
-      #   authors: Edgar T. Irons
-      #   conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
