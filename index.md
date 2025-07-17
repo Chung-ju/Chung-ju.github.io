@@ -6,7 +6,7 @@ layout: page
 
 <img src="https://caihanlin.com/caihanlin.jpg" class="floatpic">
 
-Here is **Chongru Huang (Chung-ju, Charles, 黄崇儒)**.<br>
+Here is **Chongru Huang (Chung-ju, 黄崇儒)**.<br>
 
 I am a PhD student xxx.
 
