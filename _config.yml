@@ -1,135 +1,40 @@
-# --------------------------------------------------
-#  BASIC SITE INFO
-# --------------------------------------------------
-title: Chongru Huang   # Main site title (appears in browser tab & RSS)
-tagline: Here is personal website.  # Optional short tagline, used by some layouts
-description: None.  # Strongly recommended for SEO & social cards
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# TIP ── For local development you can comment out `url`
-# and build with relative paths. In production you want this set.
-url: https://caihanlin.com
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+baseurl: "/academic-homepage" # the subpath of your site, e.g. /blog
 
-# --------------------------------------------------
-#  AUTHOR / PROFILE DATA
-# --------------------------------------------------
-owner:
-  name: Chongru Huang
-  avatar: photo.jpg
-  # bio: Dream big, stay positive, work hard, and enjoy the journey.
-  email: chongruhuang.pku@gmail.com
-  cv: https://caihanlin.com/file/CV-HanlinCAI.pdf
-
-
-  # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter: lancecai2002
-  github: GuangLun2000
-  linkedin: hanlincai
-  scholar: https://scholar.google.com/citations?user=8igSoWgAAAAJ
-  researchgate: https://www.researchgate.net/profile/Hanlin-Cai
-  zhihu: https://www.zhihu.com/people/chlire
-  xiaohongshu: 5c27848f0000000005030c6f
-  bilibili: 594030035
-  # facebook: caihanlin2002
-  # instagram: lancecai2002
-  # lastfm:
-  # tumblr:
-
-
-# --------------------------------------------------
-#  SEARCH-ENGINE VERIFICATION & ANALYTICS
-# --------------------------------------------------
-google_verify: "SkiyuGpJOKT74vv5GmXLvYXXDkXy4v8VWPtbelYz3Hs"
-# bing_verify: ""    # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-# google_analytics: "G-XXXXXXX"                                 # GA-4 property ID
-
-
-# --------------------------------------------------
-#  TOP NAVIGATION BAR
-#  `external: true` opens the link in a new tab.
-# --------------------------------------------------
-links:
-  - title: About Me
-    url: /
-  - title: Publications
-    url: /publications/
-  - title: Awards
-    url: /awards/
-  - title: Hobbies
-    url: /hobbies/
-  - title: Blogs
-    url: /blogs/
-  - title: 中文
-    url: /cn/
-
-
-# --------------------------------------------------
-#  BUILD & RENDERING OPTIONS
-# --------------------------------------------------
-timezone: Asia/Shanghai          # IANA time-zone ID (China/Beijing is invalid)
-future: true                     # Render posts dated in the future
-highlighter: rouge               # Code highlighter; Rouge is default in MM
-# markdown: kramdown             # Jekyll default; uncomment to force
-# pygments: true                 # Legacy option (Rouge supersedes this)
-
-
-# --------------------------------------------------
-#  PERMALINK STRUCTURE
-# --------------------------------------------------
-permalink: /:categories/:title    # e.g. /tech/my-post/
-
-
-# --------------------------------------------------
-#  KRAMDOWN (Markdown engine) SETTINGS
-# --------------------------------------------------
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
-
-  # coderay:
-  #   coderay_line_numbers:
-  #   coderay_line_numbers_start: 1
-  #   coderay_tab_width: 4
-  #   coderay_bold_every: 10
-  #   coderay_css: class
-
-
-# --------------------------------------------------
-#  DISQUS COMMENT SYSTEM
-# --------------------------------------------------
-disqus:
-  shortname: lancecai
-
-
-# include: [".htaccess"]
-# exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]
-
-# --------------------------------------------------
-#  INCLUDE / EXCLUDE Lists
-# --------------------------------------------------
-include: [".htaccess"]           # Files to force-include in the build
-exclude:                         # Folders/files ignored during build
-  - "lib"
-  - "config.rb"
-  - "Capfile"
-  - "config"
-  - "log"
-  - "Rakefile"
-  - "Rakefile.rb"
-  - "tmp"
-  - "less"
-  - "minimal-mistakes.sublime-project"
-  - "minimal-mistakes.sublime-workspace"
-
-
-# --------------------------------------------------
-#  OPTIONAL PLUG-INS (uncomment once gems are added)
-# --------------------------------------------------
+# Build settings
+markdown: kramdown
 plugins:
-  - jekyll-feed          # Auto-generate RSS feed
-  - jekyll-sitemap       # Auto-generate sitemap.xml
-  - jekyll-seo-tag       # Adds SEO meta tags & JSON-LD
-#   - jekyll-picture-tag   # Responsive images & WebP/AVIF
-  # - jekyll-archives      # Year/month archive pages
+  - jekyll-email-protect
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# timezone: Asia/Shanghai
+
+collections:
+  - publications
+  - news
+  - showcase
