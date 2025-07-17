@@ -1,22 +1,26 @@
 ---
-title:          "Convallis a cras semper auctor neque vitae rutrum quisque non tellus orci ac"
-date:           2024-05-12 00:01:00 +0800
+title:          "A Survey on Contribution Evaluation in Vertical Federated Learning"
+# date:           2024-05-12 00:01:00 +0800
 selected:       true
-pub:            "International Conference on Machine Learning (ICML)"
-# pub_pre:        "Submitted to "
-# pub_post:       'Under review.'
-pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
+# pub:            "International Conference on Machine Learning (ICML)"
+pub_pre:        "Submitted to IEEE Transactions on Knowledge and Data Engineering"
+pub_post:       'Under review.'
+# pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date:       "2024"
 
 abstract: >-
-  Photo by Pineapple Supply Co. on Unsplash. Please put a tldr (too-long-didnt-read, 1~2 sentences) of your publication here. It is not recommended to put the actual abstract here because it is usually too long to fit in. $\LaTeX$ is supported. $a=b+c$.
-cover:          /assets/images/covers/cover3.jpg
+  Vertical Federated Learning (VFL) has emerged as a critical approach in machine learning to address privacy concerns associated with centralized data storage and processing. VFL facilitates collaboration among multiple entities with distinct feature sets on the same user population, enabling the joint training of predictive models without direct data sharing. A key aspect of VFL is the fair and accurate evaluation of each entity's contribution to the learning process. This is crucial for maintaining trust among participating entities, ensuring equitable resource sharing, and fostering a sustainable collaboration framework. This paper provides a thorough review of contribution evaluation in VFL. We categorize the vast array of contribution evaluation techniques along the VFL lifecycle, granularity of evaluation, privacy considerations, and core computational methods. We also explore various tasks in VFL that involving contribution evaluation and analyze their required evaluation properties and relation to the VFL lifecycle phases. Finally, we present a vision for the future challenges of contribution evaluation in VFL. By providing a structured analysis of the current landscape and potential advancements, this paper aims to guide researchers and practitioners in the design and implementation of more effective, efficient, and privacy-centric VFL solutions. Relevant literature and open-source resources have been compiled and are being continuously updated at the GitHub repository: https://github.com/cuiyuebing/VFL_CE
+# cover:          /assets/images/covers/cover3.jpg
 authors:
-  - Your Name
-  - James Wang
-  - Some Other Name
-  - John Doe
+  - Yue Cui
+  - Chung-ju Huang
+  - Yuzhu Zhang
+  - Leye Wang
+  - Lixin Fan
+  - Xiaofang Zhou
+  - Qiang Yang
 links:
-  Code: https://github.com/luost26/academic-homepage
-  Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
+  Paper: https://arxiv.org/pdf/2405.02364
+  # Code: https://github.com/luost26/academic-homepage
+  # Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
 ---
