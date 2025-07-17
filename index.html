@@ -1,30 +1,20 @@
 ---
 layout: default
-title : Homepage
-navbar_title: Home
 ---
-{% include widgets/profile_card.html %}
 
-{% include widgets/debug_repo_name.html %}
 
-{% include widgets/debug_url.html %}
+{% include biography.html %}
 
-{% if site.data.display.homepage.show_experience %}
-    {% include widgets/experience_card.html %}
-{% endif %}
+{% unless site.data.data.sidebar.education %}
+  {% include education.html %}
+{% endunless %}
 
-{% if site.data.display.homepage.show_news %}
-    {% assign count_news = site.news | size %}
-    {% if count_news > 0 %}
-        {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
-    {% endif %}
-{% endif %}
+{% include publications.html %}
 
-{% if site.data.display.homepage.show_selected_publications %}
-    {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
-    {% 
-        include widgets/publication_card.html 
-        publications=pubs
-        title='<i class="fas fa-star"></i> Selected Publications'
-    %}
-{% endif %}
+{% include experiences.html %}
+
+{% include projects.html %}
+
+{% include oss-contributions.html %}
+
+{% include skills.html %}

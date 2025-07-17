@@ -1,0 +1,137 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Chung-ju Huang
+    tagline: PhD Student
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: chongruhuang.pku@gmail.com
+    phone: # 012 345 6789
+    timezone: China/Beijing Timezone
+    citizenship:
+    website: # blog.webjeda.com #do not add http://
+    linkedin: # alandoe
+    xing: # alandoe
+    github: Chung-ju
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: # '@webjeda'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: # http://www.africau.edu/images/default/sample.pdf
+
+    languages:
+      title: Languages
+      info:
+        - idiom: Chinese
+          level: Native
+
+        - idiom: English
+          level: Beginner
+
+    interests:
+      title: Interests
+      info:
+        - item: Skiing
+          link:
+
+biography:
+    title: Biography
+    summary: |
+      I am Chongru (Chung-ju) Huang (Chinese: 黄崇儒), a third-year PhD student in 
+      [School of Computer Science](https://cs.pku.edu.cn/English/Home.htm), 
+      [Peking University](https://english.pku.edu.cn/), supervised by 
+      [Leye Wang](https://wangleye.github.io/). My recent research interests 
+      are *LLM Security* and *Federated Learning*.
+
+education:
+    title: Education
+    info:
+      - degree: PhD in Computer Software and Theory
+        university: Peking University
+        time: 2022 - Present
+        details: |
+          None
+      - degree: BE in Computer Science and Engineering
+        university: Northwest A&F University
+        time: 2018 - 2022
+        details: |
+          None
+experiences:
+    title: Internship
+    info:
+      - role: Research Intern
+        time: 2025.6 - Present
+        company: Tencent WXG, Shenzhen, China
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
+
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+publications:
+    title: Selected Publications
+    intro: |
+      Just a research novice.
+    papers:
+      - title: Vertical Federated Knowledge Transfer via Representation Distillation for Healthcare Collaboration Networks
+        link: "https://arxiv.org/abs/2302.05675"
+        authors: Chung-ju Huang, Leye Wang and Xiao Han*
+        conference: WWW 2023
+
+      # - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+      #   link: "#"
+      #   authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+      #   conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+# skills:
+#     title: Skills &amp; Proficiency
+
+#     toolset:
+#       - name: Python
+#         level: 50%
+
+#       - name: C
+#         level: 25%
+
+#       - name: Rust
+#         level: 5%
+      
+#       - name: Liquid
+#         level: 5%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
