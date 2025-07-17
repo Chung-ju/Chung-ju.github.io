@@ -46,11 +46,11 @@ education:
   position: B.S. in Information Management and Information System
   date: Sep. 2018 - Jul. 2022
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+experience:
+- name: Weixin Group, Tencent
+  logo: /assets/images/badges/tencent.png
+  position: Research Intern
+  date: Sep. 2019 - Jul. 2021
 
 awards:
 - name: Award Name 2
