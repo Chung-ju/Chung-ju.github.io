@@ -6,7 +6,7 @@ layout: page
 
 <img src="https://caihanlin.com/caihanlin.jpg" class="floatpic">
 
-Here is **Hanlin Cai (Lance, 蔡汉霖)**.<br>
+Here is **Chongru Huang (Chung-ju, Charles, 黄崇儒)**.<br>
 
 I am a PhD student xxx.
 
@@ -17,9 +17,8 @@ I am always open to discussions and collaborations. Feel free to reach out to me
 ## Research Interests
 
 - [Internet of Everything](https://scholar.google.com/citations?view_op=search_authors&hl=zh-CN&mauthors=label:internet_of_everything)
-- Wireless Communication
-- Semantic Communication
-- LLM for Networking
+- LLM Security
+- Federated Learning
 
 ---
 
